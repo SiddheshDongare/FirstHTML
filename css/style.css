@@ -1,0 +1,57 @@
+/* 
+
+Project Name: Cookie Monster 
+Client: Cookie Monster
+Author: Chris Castiglione | www.twitter.com/castig | www.castig.org 
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/rickandmorty.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+#container {
+	background: black;
+	width: 424px;
+	color: white;
+	padding: 20px;
+	opacity: 0.75;
+	position: fixed;
+	right: 0px;
+}
+
+h1{
+	font-family: 'Press Start 2P', cursive;
+	font-size: 75px;
+	color: #6cac6c;
+	text-shadow: 2px 2px 5px #1b6f20, 0 0 5px white;
+	stroke: #1b6f20;
+	stroke-width: 3;
+}
+
+h2{
+	background: #03b1c5;
+	color: black;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+a{
+	color: yellow;
+	text-decoration: none;
+}
+
+#container2 {
+	position: fixed;
+	padding: 255px 0;
+	margin-left: 15px;
+}
